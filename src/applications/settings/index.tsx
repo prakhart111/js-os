@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { withWindow } from "../../system/windowManager";
-import { Monitor, Cpu, Globe, Wifi, Battery, HardDrive, Info } from "lucide-react";
+import { Monitor, Wifi, HardDrive, Info } from "lucide-react";
 
 interface SystemInfo {
   browser: string;
