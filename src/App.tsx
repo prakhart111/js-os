@@ -117,6 +117,7 @@ const AppIcon = ({
   isOpen: boolean,
   isMinimized?: boolean
 }) => {
+  console.log(isMinimized);
   return (
     <div className="group flex flex-col items-center gap-1 relative">
       <motion.button
